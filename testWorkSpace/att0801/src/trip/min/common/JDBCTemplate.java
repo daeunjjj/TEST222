@@ -12,7 +12,7 @@ public class JDBCTemplate {
 	public static Connection getConnection() throws Exception {
 		
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@192.168.219.105:1521:xe";
+		String url = "jdbc:oracle:thin:@localhost:1521:xe";
 		String id = "C##ATT";
 		String pwd = "ATT";
 		
